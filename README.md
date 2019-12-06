@@ -16,14 +16,16 @@ $ git clone https://github.com/YU-NN/DownloadChineseTrack
 $ cd [this project dir]
 ```
 で、プロジェクトディレクトリに移動。
-```
-$ source venv/bin/activate
-```
-で、仮想環境[venv](https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e)を有効化。<br>
+
+仮想環境[venv](https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e)使うと綺麗。らしい。<br>
+
 で、全課の音声ファイルだったら、
 ```
 $ python Main.py
 ```
+をすると多分エラーが出るので、<br>
+足りないモジュールは各自`pip`使ってインストールして再度実行してください。
+
 第1回小テスト用だったら、
 ```
 $ python 1st_CheckTest.py
